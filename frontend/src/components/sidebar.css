@@ -1,0 +1,61 @@
+/* sidebar.css or editor.css */
+.diagram-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .diagram-item {
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 10px; /* Add some padding */
+    margin: 5px 0; /* Add margin between items */
+    background-color: #ffffff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space items apart */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.2s, transform 0.2s; /* Smooth transition effects */
+  }
+  
+  .diagram-item:hover {
+    background-color: #f9f9f9; /* Light gray on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .diagram-name {
+    font-weight: bold; /* Bold text for the diagram name */
+    color: #333; /* Dark text color */
+  }
+  
+  .diagram-date {
+    font-size: 0.9em; /* Slightly smaller font for date */
+    color: #888; /* Lighter text color for the date */
+  }
+  
+  .no-diagrams-message {
+    color: #888; /* Light color for fallback message */
+    font-style: italic; /* Italicize fallback message */
+    text-align: center; /* Center the fallback message */
+    margin-top: 10px; /* Add some top margin */
+  }
+  
+
+
+
+  .diagram-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .diagram-item.selected {
+    background-color: #2488e6; /* Light blue background for selected items */
+    border-left: 4px solid #08498fc0; /* Blue border to emphasize the selected diagram */
+    font-weight: bold;
+  }
+  
+  .diagram-item:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  
